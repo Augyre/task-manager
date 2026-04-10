@@ -1,0 +1,81 @@
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+
+    h1,p {
+        margin: 0;
+    }
+    .registration__photo {
+        position: relative;
+        width: 504px;
+        flex-shrink: 0;
+        height: 100%;
+    }
+
+    .registration__photo-img {
+        position: absolute;
+        width: 504px;
+        height: 870px;
+        left: 0;
+        bottom: 0;
+    }
+
+    .form {
+        max-width: 651px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 651px;
+        height: 937px;
+        margin: 0 auto;
+    }
+
+    .form__title {
+        margin-bottom: 42px;
+        
+    }
+
+    .form__card {
+        padding: 21px;
+    }
+
+    .form__card-input {
+        width: 100%;
+        border: none;
+    }
+
+    .form__confirm {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        margin-top: 41px;
+        margin-bottom: 24px;
+    }
+
+    .form__card-wrap {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .form__submit {
+        width: 150px;
+        height: 80px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .login__title {
+        margin-top: 24px;
+    }
+
+    .login__button {
+        border: none;
+        color: #008BD9;
+    }
+}
