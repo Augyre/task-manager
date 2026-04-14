@@ -2,6 +2,21 @@
   box-sizing: border-box;
 }
 
+p,h1,h2,h3,h4,h5 {
+  margin: 0;
+}
+
+.pink {
+  color: #FF6767;
+}
+
+.black {
+  color: black;
+}
+
+.grey {
+  color: #A1A3AB
+}
 
 body {
   margin: 0;
@@ -81,4 +96,9 @@ code {
 .form__submit {
   background-color: #FF9090;
   color: #F8F9FB;
+}
+
+.todos-cards {
+  display: flex;
+  gap: 10px;
 }
