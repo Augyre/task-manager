@@ -1,3 +1,146 @@
 .main-layout {
     display: flex;
 }
+
+.grey-date {
+    font-size: 10px;
+    color: #A1A3AB;
+}
+
+.status-text {
+    font-size: 10px;
+}
+
+.todos {
+    width: 466px;
+    height: auto;
+    background-color: #F5F8FF;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    padding: 20px 23px 46px 23px;
+    border-radius: 14px;
+}
+
+.todos__title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todos__title-left {
+    width: 77px;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.todos__title-right {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 96px;
+}
+
+.left-img {
+    width: 28px;
+    height: 31px;
+}
+
+.right-img {
+    width: 19px;
+    height: 19px;
+}
+
+.info__todos-time {
+    display: flex;
+    margin: 10px 0 18px 0;
+    gap: 11px;
+}
+
+.todos__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card__center {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+.card__center-img {
+    width: 88px;
+    height: 88px;
+}
+
+.todos__card {
+    width: 402px;
+    height: 166px;
+    border: 1px solid #A1A3AB;
+    border-radius: 14px;
+    padding: 9px 13px 13px 4px;
+    display: flex;
+    gap: 3px
+}
+
+.card-container {
+    display: flex;
+    gap: 15px;
+}
+
+.card__info-center {
+    margin-top: 10px;
+    margin-bottom: 29px;
+    width: 232px;
+    height: 51px;
+}
+
+.card-working {
+    display: flex;
+    justify-content: space-between;
+}
+
+.todos-color {
+    width: 12px;
+    height: 12px;
+}
+
+.todos-menu {
+    width: 14px;
+    height: 3px;
+}
+
+.desc {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    width: 511px;
+    height: auto;
+    padding: 16px 20px;
+    border-radius: 14px;
+}
+
+.desc__title {
+    display: flex;
+    gap: 15px;
+    width: 328px;
+    height: 158px;
+}
+
+p {
+    color: black;
+}
+
+.desc__text-center {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    margin: 16px 0 15px 0;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.desc__main {
+    margin-top: 19px;
+    line-height: 2;
+    font-size: 16px;
+}

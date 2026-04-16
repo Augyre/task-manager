@@ -1,0 +1,80 @@
+.todoContainer {
+    margin-left: 328px;
+    width: 100%;
+    height: 100%;
+    padding: 45px 68px 14px 76px;
+
+    .invite {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 34pxa;
+    }
+
+    .invite__title {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .invite__list {
+        align-content: center;
+    }
+
+    .invite__title-hand {
+        width: 42px;
+        height: 41px;
+    }
+
+    .invite__list-btn {
+        padding: 11px 13px 7px 20px;
+        display: flex;
+        gap: 7px;
+        width: 98px;
+        height: 36px;
+        border: 1px solid #FF6767;
+        border-radius: 8px;
+    }
+
+    .info {
+        border: 1px solid #A1A3AB;
+        width: 968px;
+        height: auto;
+        padding: 22px 26px 20px 26px;
+
+    }
+
+    .info__container {
+        display: flex;
+        gap: 16px;
+        width: 906px;
+        height: auto;
+    }
+
+    .plane {
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+    }
+
+    .plane__status {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.16);
+        border-radius: 14px;
+        width: 423px;
+        height: auto;
+    }
+
+    .plane__complete {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.16);
+        border-radius: 14px;
+        width: 423px;
+        height: 436px;
+    }
+
+    .status__title {
+        padding: 24px 14px 44px 20px;
+        display: flex;
+        gap: 9px;
+    }
+
+
+}

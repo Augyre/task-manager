@@ -1,6 +1,7 @@
 import Header from "./header/Hader.jsx";
 import Aside from "./aside/Aside.jsx"
-import TodoContainer from "./sections/dashboard/todoContainer/TodoContainer.jsx";
+import MyTask from "./sections/my-task/MyTask.jsx";
+import VitalTask from "./sections/vital-task/VitalTask.jsx"
 import "./Main.scss"
 
 export default function Main() {
@@ -9,7 +10,7 @@ export default function Main() {
             <Header />
             <div className="main-layout">
                 <Aside />
-                <TodoContainer />
+                <MyTask/>
             </div>
         </>
     )
